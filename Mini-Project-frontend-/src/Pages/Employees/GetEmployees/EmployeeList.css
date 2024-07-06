@@ -1,0 +1,139 @@
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .head {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .employee-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .employee-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .employee-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .employee-table tr:hover {
+    background-color: #c7c7efe9;
+  }
+  
+  .employee-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(5, 14, 81);
+    color: white;
+  }
+  .add-emp {
+    background-color: rgb(5, 14, 81);
+    color: white;
+    padding: 3px 8px;
+    cursor: pointer;
+    position: absolute;
+    right: -2px;
+    margin-right: 61px;
+    font-size: medium;
+    font-family: math;
+    margin-top: 8px;
+}
+  .container {
+    position: relative;
+  }
+  .action {
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    background-color: rgb(5, 14, 81);
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  .action:hover {
+    background-color: rgb(5, 14, 81);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .paginator {
+    margin-top: -24px;
+    margin-right: 40px;
+}
+
+.searchbar {
+  min-height: 0px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.modal p {
+  margin: 20px 0;
+}
+
+.modal button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modal button:first-of-type {
+  background-color: #de2d27;
+  color: white;
+}
+
+.modal button:last-of-type {
+  background-color: #33b5dd;
+  color: white;
+}

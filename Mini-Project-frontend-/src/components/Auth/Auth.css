@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #cbdbff;
+  }
+  .form-container {
+    width: 900px;
+  }
+  
+  .title,
+  .slogan {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .auth-img {
+    width: 100%;  
+    border-radius: 10px;
+  }
+  
+  .alert {
+    margin-bottom: 1.5rem;
+  }
